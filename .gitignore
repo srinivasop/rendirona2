@@ -1,5 +1,20 @@
-# Object file
-*.o
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
 
-# Ada Library Information
-*.ali
+# Telethon session cache
+*.session
+*.session-journal
+
+# Config
+data/bot_conf.yaml
+
+# Logs
+logs/
+
+# Virtual envirment
+venv/
+
+.vscode/
+.idea/
